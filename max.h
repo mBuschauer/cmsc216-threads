@@ -5,4 +5,4 @@
 
 int max(int *array, int size, int num_threads);
 
-#endif // MAX_H
+#endif

@@ -12,6 +12,7 @@ int main() {
 		 - outputs the result of max and sum
 		 - will handle displaying wall clock time, the user time and the system/kernel time
 	*/
+    printf("hello, world");
 	return 0;
 }
 
