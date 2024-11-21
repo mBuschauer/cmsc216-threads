@@ -12,8 +12,18 @@ int main() {
 		 - outputs the result of max and sum
 		 - will handle displaying wall clock time, the user time and the system/kernel time
 	*/
-    printf("hello, world");
-	return 0;
+	int size, threads, seed, task;
+	char print;
+	printf("# of elements in list?: ");
+	scanf(" %d", &size);
+	printf("# of threads: ");
+	scanf(" %d", &threads);
+	printf("seed: ");
+	scanf(" %d", &seed);
+	printf("Max (1) or Sum (2): ");
+	scanf(" %d", &task);
+	printf("Print Results? (Y/N): ");
+	scanf(" %c", &print);
 }
 
 /*
