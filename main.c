@@ -24,7 +24,7 @@ int main() {
 	scanf(" %d", &seed);
 	printf("Max (1) or Sum (2): ");
 	scanf(" %d", &task);
-	printf("Print Results? (Y/N): ");
+	printf("Print Results? (y/n): ");
 	scanf(" %c", &print);
 
 	randomArray(seed, size, &array);
@@ -35,10 +35,13 @@ int main() {
 	switch (task) {
 	case 1:
 		output = max(array, size, threads);
+		break;
 	case 2:
 		output = sum(array, size, threads);
+		break;
 	default:
 		output = -1;
+		break;
 	}
 
 	gettimeofday(&end_wall, NULL);
