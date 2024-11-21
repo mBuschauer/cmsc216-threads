@@ -1,6 +1,8 @@
 #ifndef MAX_H
 #define MAX_H
 
-int max();
+#include <pthread.h>
+
+int max(int *array, int size, int num_threads);
 
 #endif // MAX_H
