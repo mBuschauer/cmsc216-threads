@@ -14,6 +14,7 @@ int main() {
 	*/
 	int size, threads, seed, task;
 	char print;
+	
 	printf("# of elements in list?: ");
 	scanf(" %d", &size);
 	printf("# of threads: ");
